@@ -1,0 +1,31 @@
+{
+  "className": "SafeTransfer",
+  "args": [],
+  "code": "6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72305820cefe75e9004bda337d8e57b7d54b87ea4fedf5be830d6d076576f694526915f564736f6c634300050a0032",
+  "runtimeBytecode": "6080604052600080fdfea265627a7a72305820cefe75e9004bda337d8e57b7d54b87ea4fedf5be830d6d076576f694526915f564736f6c634300050a0032",
+  "realRuntimeBytecode": "6080604052600080fdfea265627a7a72305820cefe75e9004bda337d",
+  "linkReferences": {},
+  "swarmHash": "8e57b7d54b87ea4fedf5be830d6d076576f694526915f564736f6c634300050a",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "12400",
+      "executionCost": "66",
+      "totalCost": "12466"
+    },
+    "internal": {
+      "_safeTransfer(contract ERC20Token,address,uint256)": "infinite",
+      "_safeTransferFrom(contract ERC20Token,address,address,uint256)": "infinite"
+    }
+  },
+  "functionHashes": {},
+  "abiDefinition": [],
+  "filename": "/home/richard/status/status-teller-network/.embark/contracts/token/SafeTransfer.sol",
+  "originalFilename": "contracts/token/SafeTransfer.sol",
+  "path": "/home/richard/status/status-teller-network/contracts/token/SafeTransfer.sol",
+  "gas": "auto",
+  "gasPrice": "5000000000",
+  "type": "file",
+  "deploy": false,
+  "_gasLimit": 6000000,
+  "error": false
+}

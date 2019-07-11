@@ -1,0 +1,255 @@
+{
+  "className": "Arbitrable",
+  "args": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "realRuntimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {
+    "arbitrationCases(uint256)": "751c7ec0",
+    "arbitratorLicenses()": "dd4235b8",
+    "cancelArbitration(uint256)": "7e623271",
+    "fallbackArbitrator()": "aa91f15b",
+    "hadDispute(uint256)": "04fb14d3",
+    "isDisputed(uint256)": "7ccc586e",
+    "setArbitrationResult(uint256,uint8)": "e6bc5fd8"
+  },
+  "abiDefinition": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_escrowId",
+          "type": "uint256"
+        }
+      ],
+      "name": "hadDispute",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x04fb14d3"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "arbitrationCases",
+      "outputs": [
+        {
+          "name": "open",
+          "type": "bool"
+        },
+        {
+          "name": "openBy",
+          "type": "address"
+        },
+        {
+          "name": "arbitrator",
+          "type": "address"
+        },
+        {
+          "name": "arbitratorTimeout",
+          "type": "uint256"
+        },
+        {
+          "name": "result",
+          "type": "uint8"
+        },
+        {
+          "name": "motive",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x751c7ec0"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_escrowId",
+          "type": "uint256"
+        }
+      ],
+      "name": "isDisputed",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x7ccc586e"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_escrowId",
+          "type": "uint256"
+        }
+      ],
+      "name": "cancelArbitration",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x7e623271"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fallbackArbitrator",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xaa91f15b"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "arbitratorLicenses",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xdd4235b8"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_escrowId",
+          "type": "uint256"
+        },
+        {
+          "name": "_result",
+          "type": "uint8"
+        }
+      ],
+      "name": "setArbitrationResult",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xe6bc5fd8"
+    },
+    {
+      "inputs": [
+        {
+          "name": "_arbitratorLicenses",
+          "type": "address"
+        },
+        {
+          "name": "_fallbackArbitrator",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "arbitrator",
+          "type": "address"
+        }
+      ],
+      "name": "ArbitratorChanged",
+      "type": "event",
+      "signature": "0xcea58c692fbc9fb8dd2ed0126e9e62c4be5c8d5990b1dfafa05adf2d32927da1"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "escrowId",
+          "type": "uint256"
+        }
+      ],
+      "name": "ArbitrationCanceled",
+      "type": "event",
+      "signature": "0x841d361c2e9b919234bea88e56ddd3de1314046ccf176d49c24a3c3df788e9a0"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "escrowId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "timeout",
+          "type": "uint256"
+        }
+      ],
+      "name": "ArbitrationRequired",
+      "type": "event",
+      "signature": "0x345a91169848d06f5f97afcb733bed9ff6336edd2d18c5c874f4227501c153b3"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "escrowId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "result",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "arbitrator",
+          "type": "address"
+        }
+      ],
+      "name": "ArbitrationResolved",
+      "type": "event",
+      "signature": "0xc6815c0e877eb4c4114b3762b9ba0175f32f58cc49bbafc777cac8b639e12bc2"
+    }
+  ],
+  "filename": "/home/richard/status/status-teller-network/.embark/contracts/teller-network/Arbitrable.sol",
+  "originalFilename": "contracts/teller-network/Arbitrable.sol",
+  "path": "/home/richard/status/status-teller-network/contracts/teller-network/Arbitrable.sol",
+  "gas": "auto",
+  "type": "file",
+  "deploy": false,
+  "_gasLimit": 6000000,
+  "error": false
+}

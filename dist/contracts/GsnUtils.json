@@ -1,0 +1,33 @@
+{
+  "className": "GsnUtils",
+  "args": [],
+  "code": "60556023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820391ff0495f569eedaafcbf0531cd5682b3582361497080f07670824e8ee1120964736f6c634300050a0032",
+  "runtimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820391ff0495f569eedaafcbf0531cd5682b3582361497080f07670824e8ee1120964736f6c634300050a0032",
+  "realRuntimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820391ff0495f569eedaa",
+  "linkReferences": {},
+  "swarmHash": "fcbf0531cd5682b3582361497080f07670824e8ee1120964736f6c634300050a",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "17000",
+      "executionCost": "94",
+      "totalCost": "17094"
+    },
+    "internal": {
+      "checkSig(address,bytes32,bytes memory)": "infinite",
+      "getBytesParam(bytes memory,uint256)": "infinite",
+      "getMethodSig(bytes memory)": "infinite",
+      "getParam(bytes memory,uint256)": "infinite",
+      "getStringParam(bytes memory,uint256)": "infinite"
+    }
+  },
+  "functionHashes": {},
+  "abiDefinition": [],
+  "filename": "/home/richard/status/status-teller-network/.embark/node_modules/tabookey-gasless/contracts/GsnUtils.sol",
+  "originalFilename": "contracts//home/richard/status/status-teller-network/.embark/node_modules/tabookey-gasless/contracts/GsnUtils.sol",
+  "path": "/home/richard/status/status-teller-network/contracts/.embark/node_modules/tabookey-gasless/contracts/GsnUtils.sol",
+  "gas": "auto",
+  "type": "file",
+  "deploy": false,
+  "_gasLimit": 6000000,
+  "error": false
+}

@@ -1,0 +1,27 @@
+{
+  "className": "MessageSigned",
+  "args": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "realRuntimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {},
+  "abiDefinition": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "filename": "/home/richard/status/status-teller-network/.embark/contracts/common/MessageSigned.sol",
+  "originalFilename": "contracts/common/MessageSigned.sol",
+  "path": "/home/richard/status/status-teller-network/contracts/common/MessageSigned.sol",
+  "gas": "auto",
+  "type": "file",
+  "deploy": false,
+  "_gasLimit": 6000000,
+  "error": false
+}

@@ -8,7 +8,7 @@
 /coverage
 
 # production
-/build
+#/build
 
 # misc
 .DS_Store
@@ -27,7 +27,7 @@ chains.json
 embarkConfig/production/password
 embarkConfig/livenet/password
 coverage
-dist
+#dist
 node_modules
 src/embarkArtifacts
 .idea

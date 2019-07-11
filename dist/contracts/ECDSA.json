@@ -1,0 +1,30 @@
+{
+  "className": "ECDSA",
+  "args": [],
+  "code": "60556023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820bd5f65d4d2f57d2551b56c26aaf71db254eb262ccd2d71ee443f12ae4a2961f964736f6c634300050a0032",
+  "runtimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820bd5f65d4d2f57d2551b56c26aaf71db254eb262ccd2d71ee443f12ae4a2961f964736f6c634300050a0032",
+  "realRuntimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820bd5f65d4d2f57d2551",
+  "linkReferences": {},
+  "swarmHash": "b56c26aaf71db254eb262ccd2d71ee443f12ae4a2961f964736f6c634300050a",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "17000",
+      "executionCost": "94",
+      "totalCost": "17094"
+    },
+    "internal": {
+      "recover(bytes32,bytes memory)": "infinite",
+      "toEthSignedMessageHash(bytes32)": "infinite"
+    }
+  },
+  "functionHashes": {},
+  "abiDefinition": [],
+  "filename": "/home/richard/status/status-teller-network/.embark/node_modules/openzeppelin-solidity/contracts/cryptography/ECDSA.sol",
+  "originalFilename": "contracts//home/richard/status/status-teller-network/.embark/node_modules/openzeppelin-solidity/contracts/cryptography/ECDSA.sol",
+  "path": "/home/richard/status/status-teller-network/contracts/.embark/node_modules/openzeppelin-solidity/contracts/cryptography/ECDSA.sol",
+  "gas": "auto",
+  "type": "file",
+  "deploy": false,
+  "_gasLimit": 6000000,
+  "error": false
+}

@@ -1,0 +1,63 @@
+{
+  "className": "Proxiable",
+  "args": [],
+  "code": "6080604052348015600f57600080fd5b50609e8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806352d1902d14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b7fc5f16f0fcc639fa48a6947836d9850f504798523bf8c9a3a87d5876cf622bcf79056fea265627a7a723058202f6f39a6227167e022e5ca693ae83b8b59e6bde79649b0907097df22fd1933d064736f6c634300050a0032",
+  "runtimeBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c806352d1902d14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b7fc5f16f0fcc639fa48a6947836d9850f504798523bf8c9a3a87d5876cf622bcf79056fea265627a7a723058202f6f39a6227167e022e5ca693ae83b8b59e6bde79649b0907097df22fd1933d064736f6c634300050a0032",
+  "realRuntimeBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c806352d1902d14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b7fc5f16f0fcc639fa48a6947836d9850f504798523bf8c9a3a87d5876cf622bcf79056fea265627a7a723058202f6f39a6227167e022",
+  "linkReferences": {},
+  "swarmHash": "e5ca693ae83b8b59e6bde79649b0907097df22fd1933d064736f6c634300050a",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "31600",
+      "executionCost": "81",
+      "totalCost": "31681"
+    },
+    "external": {
+      "proxiableUUID()": "176"
+    },
+    "internal": {
+      "updateCodeAddress(address)": "infinite"
+    }
+  },
+  "functionHashes": {
+    "proxiableUUID()": "52d1902d"
+  },
+  "abiDefinition": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "proxiableUUID",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function",
+      "signature": "0x52d1902d"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "implementation",
+          "type": "address"
+        }
+      ],
+      "name": "Upgraded",
+      "type": "event",
+      "signature": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b"
+    }
+  ],
+  "filename": "/home/richard/status/status-teller-network/.embark/contracts/proxy/Proxiable.sol",
+  "originalFilename": "contracts/proxy/Proxiable.sol",
+  "path": "/home/richard/status/status-teller-network/contracts/proxy/Proxiable.sol",
+  "gas": "auto",
+  "type": "file",
+  "deploy": false,
+  "_gasLimit": 6000000,
+  "error": false
+}
