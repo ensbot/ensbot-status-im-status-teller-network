@@ -9,13 +9,9 @@ import {withTranslation} from "react-i18next";
 
 class Settings extends Component {
   clearCache = () => {
-    console.log('Reset cache!!');
     this.props.clearCache();
     setTimeout(() => {
-      console.log('relaod!!');
       window.location.reload();
-      console.log('Try teh other one too!!');
-      window.location.href = window.location.href;
     }, 500);
   };
 
