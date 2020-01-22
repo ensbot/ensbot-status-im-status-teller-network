@@ -1,12 +1,63 @@
 {
-  "file": "tabookey-gasless/contracts/RLPReader.sol",
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
+  },
+  "abiDefinition": [],
   "className": "RLPReader",
   "args": [],
-  "code": "60556023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a7230582013b2bcaad30465fe0d9854931142c1a687d878b504fd54c482dbbbff912fc66a64736f6c634300050a0032",
-  "runtimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a7230582013b2bcaad30465fe0d9854931142c1a687d878b504fd54c482dbbbff912fc66a64736f6c634300050a0032",
-  "realRuntimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a7230582013b2bcaad30465fe0d",
+  "gas": "auto",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
+  "deploy": false,
+  "realRuntimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a723058200910d3ec80a771a51d",
+  "realArgs": [],
+  "file": "tabookey-gasless/contracts/RLPReader.sol",
+  "code": "60556023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a723058200910d3ec80a771a51d6dc74a8f02685c23ebfbf745cda1500e5bfbb72eb339da64736f6c634300050a0032",
+  "runtimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a723058200910d3ec80a771a51d6dc74a8f02685c23ebfbf745cda1500e5bfbb72eb339da64736f6c634300050a0032",
   "linkReferences": {},
-  "swarmHash": "9854931142c1a687d878b504fd54c482dbbbff912fc66a64736f6c634300050a",
+  "swarmHash": "6dc74a8f02685c23ebfbf745cda1500e5bfbb72eb339da64736f6c634300050a",
   "gasEstimates": {
     "creation": {
       "codeDepositCost": "17000",
@@ -30,17 +81,9 @@
     }
   },
   "functionHashes": {},
-  "abiDefinition": [],
-  "filename": "/home/richard/status/status-teller-network/.embark/node_modules/tabookey-gasless/contracts/RLPReader.sol",
-  "originalFilename": "node_modules/tabookey-gasless/contracts/RLPReader.sol",
-  "path": "/home/richard/status/status-teller-network/node_modules/tabookey-gasless/contracts/RLPReader.sol",
-  "gas": "auto",
+  "filename": "C:/dev/status-teller-network/.embark/node_modules/tabookey-gasless/contracts/RLPReader.sol",
+  "originalFilename": "node_modules\\tabookey-gasless\\contracts\\RLPReader.sol",
+  "path": "C:\\dev\\status-teller-network\\node_modules\\tabookey-gasless\\contracts\\RLPReader.sol",
   "type": "file",
-  "deploy": true,
-  "_gasLimit": 6000000,
-  "error": false,
-  "deploymentAccount": "0xC3BC9aACAb6B4de31DB08DB7E7453Ca833CC9E6A",
-  "realArgs": [],
-  "address": "0x64A288b1F94DAb42D62114293eA6E71795f92c7B",
-  "deployedAddress": "0x64A288b1F94DAb42D62114293eA6E71795f92c7B"
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

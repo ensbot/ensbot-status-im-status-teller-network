@@ -1,20 +1,47 @@
 {
-  "className": "Arbitrable",
-  "args": [],
-  "code": "",
-  "runtimeBytecode": "",
-  "realRuntimeBytecode": "",
-  "linkReferences": {},
-  "swarmHash": "",
-  "gasEstimates": null,
-  "functionHashes": {
-    "arbitrationCases(uint256)": "751c7ec0",
-    "arbitratorLicenses()": "dd4235b8",
-    "cancelArbitration(uint256)": "7e623271",
-    "fallbackArbitrator()": "aa91f15b",
-    "hadDispute(uint256)": "04fb14d3",
-    "isDisputed(uint256)": "7ccc586e",
-    "setArbitrationResult(uint256,uint8)": "e6bc5fd8"
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
   },
   "abiDefinition": [
     {
@@ -34,8 +61,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x04fb14d3"
+      "type": "function"
     },
     {
       "constant": true,
@@ -74,8 +100,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x751c7ec0"
+      "type": "function"
     },
     {
       "constant": true,
@@ -94,8 +119,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x7ccc586e"
+      "type": "function"
     },
     {
       "constant": false,
@@ -109,8 +133,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x7e623271"
+      "type": "function"
     },
     {
       "constant": true,
@@ -124,8 +147,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0xaa91f15b"
+      "type": "function"
     },
     {
       "constant": true,
@@ -139,8 +161,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0xdd4235b8"
+      "type": "function"
     },
     {
       "constant": false,
@@ -158,8 +179,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xe6bc5fd8"
+      "type": "function"
     },
     {
       "inputs": [
@@ -186,8 +206,7 @@
         }
       ],
       "name": "ArbitratorChanged",
-      "type": "event",
-      "signature": "0xcea58c692fbc9fb8dd2ed0126e9e62c4be5c8d5990b1dfafa05adf2d32927da1"
+      "type": "event"
     },
     {
       "anonymous": false,
@@ -199,8 +218,7 @@
         }
       ],
       "name": "ArbitrationCanceled",
-      "type": "event",
-      "signature": "0x841d361c2e9b919234bea88e56ddd3de1314046ccf176d49c24a3c3df788e9a0"
+      "type": "event"
     },
     {
       "anonymous": false,
@@ -217,8 +235,7 @@
         }
       ],
       "name": "ArbitrationRequired",
-      "type": "event",
-      "signature": "0x345a91169848d06f5f97afcb733bed9ff6336edd2d18c5c874f4227501c153b3"
+      "type": "event"
     },
     {
       "anonymous": false,
@@ -240,16 +257,35 @@
         }
       ],
       "name": "ArbitrationResolved",
-      "type": "event",
-      "signature": "0xc6815c0e877eb4c4114b3762b9ba0175f32f58cc49bbafc777cac8b639e12bc2"
+      "type": "event"
     }
   ],
-  "filename": "/home/richard/status/status-teller-network/.embark/contracts/teller-network/Arbitrable.sol",
-  "originalFilename": "contracts/teller-network/Arbitrable.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/teller-network/Arbitrable.sol",
+  "className": "Arbitrable",
+  "args": [],
   "gas": "auto",
-  "type": "file",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
   "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "realRuntimeBytecode": "",
+  "realArgs": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {
+    "arbitrationCases(uint256)": "751c7ec0",
+    "arbitratorLicenses()": "dd4235b8",
+    "cancelArbitration(uint256)": "7e623271",
+    "fallbackArbitrator()": "aa91f15b",
+    "hadDispute(uint256)": "04fb14d3",
+    "isDisputed(uint256)": "7ccc586e",
+    "setArbitrationResult(uint256,uint8)": "e6bc5fd8"
+  },
+  "filename": "C:/dev/status-teller-network/.embark/contracts/teller-network/Arbitrable.sol",
+  "originalFilename": "contracts\\teller-network\\Arbitrable.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\teller-network\\Arbitrable.sol",
+  "type": "file",
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

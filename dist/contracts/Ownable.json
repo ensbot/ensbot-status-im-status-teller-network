@@ -1,17 +1,47 @@
 {
-  "className": "Ownable",
-  "args": [],
-  "code": "",
-  "runtimeBytecode": "",
-  "realRuntimeBytecode": "",
-  "linkReferences": {},
-  "swarmHash": "",
-  "gasEstimates": null,
-  "functionHashes": {
-    "isOwner()": "8f32d59b",
-    "owner()": "8da5cb5b",
-    "renounceOwnership()": "715018a6",
-    "transferOwnership(address)": "f2fde38b"
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
   },
   "abiDefinition": [
     {
@@ -21,8 +51,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x715018a6"
+      "type": "function"
     },
     {
       "constant": true,
@@ -36,8 +65,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x8da5cb5b"
+      "type": "function"
     },
     {
       "constant": true,
@@ -51,8 +79,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x8f32d59b"
+      "type": "function"
     },
     {
       "constant": false,
@@ -66,8 +93,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xf2fde38b"
+      "type": "function"
     },
     {
       "inputs": [],
@@ -90,16 +116,32 @@
         }
       ],
       "name": "OwnershipTransferred",
-      "type": "event",
-      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+      "type": "event"
     }
   ],
-  "filename": "/home/richard/status/status-teller-network/.embark/contracts/common/Ownable.sol",
-  "originalFilename": "contracts/common/Ownable.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/common/Ownable.sol",
+  "className": "Ownable",
+  "args": [],
   "gas": "auto",
-  "type": "file",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
   "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "realRuntimeBytecode": "",
+  "realArgs": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {
+    "isOwner()": "8f32d59b",
+    "owner()": "8da5cb5b",
+    "renounceOwnership()": "715018a6",
+    "transferOwnership(address)": "f2fde38b"
+  },
+  "filename": "C:/dev/status-teller-network/.embark/contracts/common/Ownable.sol",
+  "originalFilename": "contracts\\common\\Ownable.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\common\\Ownable.sol",
+  "type": "file",
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

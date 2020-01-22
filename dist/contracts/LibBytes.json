@@ -1,11 +1,62 @@
 {
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
+  },
+  "abiDefinition": [],
   "className": "LibBytes",
   "args": [],
-  "code": "60556023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820db97b46759a67ca43713efd7aeb2dc53c802045a8eb692265735918bad019ae864736f6c634300050a0032",
-  "runtimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820db97b46759a67ca43713efd7aeb2dc53c802045a8eb692265735918bad019ae864736f6c634300050a0032",
-  "realRuntimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820db97b46759a67ca437",
+  "gas": "auto",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
+  "deploy": false,
+  "realRuntimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820c171ecf44093e4002f",
+  "realArgs": [],
+  "code": "60556023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820c171ecf44093e4002fa58f0b7613cf29222d953ce1821fed7d9779c4ed574a1764736f6c634300050a0032",
+  "runtimeBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea265627a7a72305820c171ecf44093e4002fa58f0b7613cf29222d953ce1821fed7d9779c4ed574a1764736f6c634300050a0032",
   "linkReferences": {},
-  "swarmHash": "13efd7aeb2dc53c802045a8eb692265735918bad019ae864736f6c634300050a",
+  "swarmHash": "a58f0b7613cf29222d953ce1821fed7d9779c4ed574a1764736f6c634300050a",
   "gasEstimates": {
     "creation": {
       "codeDepositCost": "17000",
@@ -34,13 +85,9 @@
     }
   },
   "functionHashes": {},
-  "abiDefinition": [],
-  "filename": "/home/richard/status/status-teller-network/.embark/node_modules/@0x/contracts-utils/contracts/src/LibBytes.sol",
-  "originalFilename": "contracts//home/richard/status/status-teller-network/.embark/node_modules/@0x/contracts-utils/contracts/src/LibBytes.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/.embark/node_modules/@0x/contracts-utils/contracts/src/LibBytes.sol",
-  "gas": "auto",
+  "filename": "C:/dev/status-teller-network/.embark/node_modules/@0x/contracts-utils/contracts/src/LibBytes.sol",
+  "originalFilename": "contracts/C:/dev/status-teller-network/.embark/node_modules/@0x/contracts-utils/contracts/src/LibBytes.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\C:\\dev\\status-teller-network\\.embark\\node_modules\\@0x\\contracts-utils\\contracts\\src\\LibBytes.sol",
   "type": "file",
-  "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

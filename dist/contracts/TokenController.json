@@ -1,16 +1,47 @@
 {
-  "className": "TokenController",
-  "args": [],
-  "code": "",
-  "runtimeBytecode": "",
-  "realRuntimeBytecode": "",
-  "linkReferences": {},
-  "swarmHash": "",
-  "gasEstimates": null,
-  "functionHashes": {
-    "onApprove(address,address,uint256)": "da682aeb",
-    "onTransfer(address,address,uint256)": "4a393149",
-    "proxyPayment(address)": "f48c3054"
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
   },
   "abiDefinition": [
     {
@@ -38,8 +69,7 @@
       ],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x4a393149"
+      "type": "function"
     },
     {
       "constant": false,
@@ -66,8 +96,7 @@
       ],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xda682aeb"
+      "type": "function"
     },
     {
       "constant": false,
@@ -86,16 +115,31 @@
       ],
       "payable": true,
       "stateMutability": "payable",
-      "type": "function",
-      "signature": "0xf48c3054"
+      "type": "function"
     }
   ],
-  "filename": "/home/richard/status/status-teller-network/.embark/contracts/token/TokenController.sol",
-  "originalFilename": "contracts/token/TokenController.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/token/TokenController.sol",
+  "className": "TokenController",
+  "args": [],
   "gas": "auto",
-  "type": "file",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
   "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "realRuntimeBytecode": "",
+  "realArgs": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {
+    "onApprove(address,address,uint256)": "da682aeb",
+    "onTransfer(address,address,uint256)": "4a393149",
+    "proxyPayment(address)": "f48c3054"
+  },
+  "filename": "C:/dev/status-teller-network/.embark/contracts/token/TokenController.sol",
+  "originalFilename": "contracts\\token\\TokenController.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\token\\TokenController.sol",
+  "type": "file",
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

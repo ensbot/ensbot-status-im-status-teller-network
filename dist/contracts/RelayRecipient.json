@@ -1,21 +1,47 @@
 {
-  "className": "RelayRecipient",
-  "args": [],
-  "code": "",
-  "runtimeBytecode": "",
-  "realRuntimeBytecode": "",
-  "linkReferences": {},
-  "swarmHash": "",
-  "gasEstimates": null,
-  "functionHashes": {
-    "acceptRelayedCall(address,address,bytes,uint256,uint256,uint256,uint256,bytes,uint256)": "83947ea0",
-    "getHubAddr()": "74e861d6",
-    "getMessageData()": "e20c6d3d",
-    "getRecipientBalance()": "ac570411",
-    "getSender()": "5e01eb5a",
-    "getSenderFromData(address,bytes)": "1da97ea3",
-    "postRelayedCall(bytes,bool,uint256,bytes32)": "e06e0e22",
-    "preRelayedCall(bytes)": "80274db7"
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
   },
   "abiDefinition": [
     {
@@ -39,8 +65,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x1da97ea3"
+      "type": "function"
     },
     {
       "constant": true,
@@ -54,8 +79,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x5e01eb5a"
+      "type": "function"
     },
     {
       "constant": true,
@@ -69,8 +93,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x74e861d6"
+      "type": "function"
     },
     {
       "constant": false,
@@ -89,8 +112,7 @@
       ],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x80274db7"
+      "type": "function"
     },
     {
       "constant": true,
@@ -145,8 +167,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x83947ea0"
+      "type": "function"
     },
     {
       "constant": true,
@@ -160,8 +181,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0xac570411"
+      "type": "function"
     },
     {
       "constant": false,
@@ -187,8 +207,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xe06e0e22"
+      "type": "function"
     },
     {
       "constant": true,
@@ -202,16 +221,36 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0xe20c6d3d"
+      "type": "function"
     }
   ],
-  "filename": "/home/richard/status/status-teller-network/.embark/node_modules/tabookey-gasless/contracts/RelayRecipient.sol",
-  "originalFilename": "contracts//home/richard/status/status-teller-network/.embark/node_modules/tabookey-gasless/contracts/RelayRecipient.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/.embark/node_modules/tabookey-gasless/contracts/RelayRecipient.sol",
+  "className": "RelayRecipient",
+  "args": [],
   "gas": "auto",
-  "type": "file",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
   "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "realRuntimeBytecode": "",
+  "realArgs": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {
+    "acceptRelayedCall(address,address,bytes,uint256,uint256,uint256,uint256,bytes,uint256)": "83947ea0",
+    "getHubAddr()": "74e861d6",
+    "getMessageData()": "e20c6d3d",
+    "getRecipientBalance()": "ac570411",
+    "getSender()": "5e01eb5a",
+    "getSenderFromData(address,bytes)": "1da97ea3",
+    "postRelayedCall(bytes,bool,uint256,bytes32)": "e06e0e22",
+    "preRelayedCall(bytes)": "80274db7"
+  },
+  "filename": "C:/dev/status-teller-network/.embark/node_modules/tabookey-gasless/contracts/RelayRecipient.sol",
+  "originalFilename": "contracts/C:/dev/status-teller-network/.embark/node_modules/tabookey-gasless/contracts/RelayRecipient.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\C:\\dev\\status-teller-network\\.embark\\node_modules\\tabookey-gasless\\contracts\\RelayRecipient.sol",
+  "type": "file",
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

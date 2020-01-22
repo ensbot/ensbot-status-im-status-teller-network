@@ -1,20 +1,47 @@
 {
-  "className": "Pausable",
-  "args": [],
-  "code": "",
-  "runtimeBytecode": "",
-  "realRuntimeBytecode": "",
-  "linkReferences": {},
-  "swarmHash": "",
-  "gasEstimates": null,
-  "functionHashes": {
-    "isOwner()": "8f32d59b",
-    "owner()": "8da5cb5b",
-    "pause()": "8456cb59",
-    "paused()": "5c975abb",
-    "renounceOwnership()": "715018a6",
-    "transferOwnership(address)": "f2fde38b",
-    "unpause()": "3f4ba83a"
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
   },
   "abiDefinition": [
     {
@@ -24,8 +51,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x3f4ba83a"
+      "type": "function"
     },
     {
       "constant": true,
@@ -39,8 +65,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x5c975abb"
+      "type": "function"
     },
     {
       "constant": false,
@@ -49,8 +74,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x715018a6"
+      "type": "function"
     },
     {
       "constant": false,
@@ -59,8 +83,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x8456cb59"
+      "type": "function"
     },
     {
       "constant": true,
@@ -74,8 +97,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x8da5cb5b"
+      "type": "function"
     },
     {
       "constant": true,
@@ -89,8 +111,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x8f32d59b"
+      "type": "function"
     },
     {
       "constant": false,
@@ -104,8 +125,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xf2fde38b"
+      "type": "function"
     },
     {
       "inputs": [],
@@ -117,15 +137,13 @@
       "anonymous": false,
       "inputs": [],
       "name": "Paused",
-      "type": "event",
-      "signature": "0x9e87fac88ff661f02d44f95383c817fece4bce600a3dab7a54406878b965e752"
+      "type": "event"
     },
     {
       "anonymous": false,
       "inputs": [],
       "name": "Unpaused",
-      "type": "event",
-      "signature": "0xa45f47fdea8a1efdd9029a5691c7f759c32b7c698632b563573e155625d16933"
+      "type": "event"
     },
     {
       "anonymous": false,
@@ -142,16 +160,35 @@
         }
       ],
       "name": "OwnershipTransferred",
-      "type": "event",
-      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+      "type": "event"
     }
   ],
-  "filename": "/home/richard/status/status-teller-network/.embark/contracts/common/Pausable.sol",
-  "originalFilename": "contracts/common/Pausable.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/common/Pausable.sol",
+  "className": "Pausable",
+  "args": [],
   "gas": "auto",
-  "type": "file",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
   "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "realRuntimeBytecode": "",
+  "realArgs": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {
+    "isOwner()": "8f32d59b",
+    "owner()": "8da5cb5b",
+    "pause()": "8456cb59",
+    "paused()": "5c975abb",
+    "renounceOwnership()": "715018a6",
+    "transferOwnership(address)": "f2fde38b",
+    "unpause()": "3f4ba83a"
+  },
+  "filename": "C:/dev/status-teller-network/.embark/contracts/common/Pausable.sol",
+  "originalFilename": "contracts\\common\\Pausable.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\common\\Pausable.sol",
+  "type": "file",
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

@@ -1,15 +1,47 @@
 {
-  "className": "Controlled",
-  "args": [],
-  "code": "",
-  "runtimeBytecode": "",
-  "realRuntimeBytecode": "",
-  "linkReferences": {},
-  "swarmHash": "",
-  "gasEstimates": null,
-  "functionHashes": {
-    "changeController(address)": "3cebb823",
-    "controller()": "f77c4791"
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
   },
   "abiDefinition": [
     {
@@ -24,8 +56,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x3cebb823"
+      "type": "function"
     },
     {
       "constant": true,
@@ -39,8 +70,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0xf77c4791"
+      "type": "function"
     },
     {
       "inputs": [],
@@ -49,12 +79,27 @@
       "type": "constructor"
     }
   ],
-  "filename": "/home/richard/status/status-teller-network/.embark/contracts/common/Controlled.sol",
-  "originalFilename": "contracts/common/Controlled.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/common/Controlled.sol",
+  "className": "Controlled",
+  "args": [],
   "gas": "auto",
-  "type": "file",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
   "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "realRuntimeBytecode": "",
+  "realArgs": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {
+    "changeController(address)": "3cebb823",
+    "controller()": "f77c4791"
+  },
+  "filename": "C:/dev/status-teller-network/.embark/contracts/common/Controlled.sol",
+  "originalFilename": "contracts\\common\\Controlled.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\common\\Controlled.sol",
+  "type": "file",
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

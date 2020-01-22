@@ -1,25 +1,96 @@
 {
-  "className": "IEscrow",
-  "args": [],
-  "code": "",
-  "runtimeBytecode": "",
-  "realRuntimeBytecode": "",
-  "linkReferences": {},
-  "swarmHash": "",
-  "gasEstimates": null,
-  "functionHashes": {
-    "cancel(uint256)": "40e58ee5",
-    "cancel_relayed(address,uint256)": "be523937",
-    "createEscrow_relayed(address,uint256,uint256,uint256,string,string,string)": "68d9692a",
-    "getBasicTradeData(uint256)": "4a58ddce",
-    "openCase(uint256,uint8)": "267b4cc3",
-    "openCase_relayed(address,uint256,uint8)": "f309146f",
-    "pay(uint256)": "c290d691",
-    "pay_relayed(address,uint256)": "dbaa159d",
-    "rateTransaction(uint256,uint256)": "79347b06",
-    "rateTransaction_relayed(address,uint256,uint256)": "477a7941"
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
   },
   "abiDefinition": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_sender",
+          "type": "address"
+        },
+        {
+          "name": "_offerId",
+          "type": "uint256"
+        },
+        {
+          "name": "_tokenAmount",
+          "type": "uint256"
+        },
+        {
+          "name": "_fiatAmount",
+          "type": "uint256"
+        },
+        {
+          "name": "_destination",
+          "type": "address"
+        },
+        {
+          "name": "_contactData",
+          "type": "string"
+        },
+        {
+          "name": "_location",
+          "type": "string"
+        },
+        {
+          "name": "_username",
+          "type": "string"
+        }
+      ],
+      "name": "createEscrow_relayed",
+      "outputs": [
+        {
+          "name": "escrowId",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
     {
       "constant": false,
       "inputs": [
@@ -36,8 +107,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x267b4cc3"
+      "type": "function"
     },
     {
       "constant": false,
@@ -51,8 +121,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x40e58ee5"
+      "type": "function"
     },
     {
       "constant": false,
@@ -74,8 +143,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x477a7941"
+      "type": "function"
     },
     {
       "constant": true,
@@ -106,52 +174,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x4a58ddce"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "_sender",
-          "type": "address"
-        },
-        {
-          "name": "_offerId",
-          "type": "uint256"
-        },
-        {
-          "name": "_tokenAmount",
-          "type": "uint256"
-        },
-        {
-          "name": "_fiatAmount",
-          "type": "uint256"
-        },
-        {
-          "name": "_contactData",
-          "type": "string"
-        },
-        {
-          "name": "_location",
-          "type": "string"
-        },
-        {
-          "name": "_username",
-          "type": "string"
-        }
-      ],
-      "name": "createEscrow_relayed",
-      "outputs": [
-        {
-          "name": "escrowId",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x68d9692a"
+      "type": "function"
     },
     {
       "constant": false,
@@ -169,8 +192,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x79347b06"
+      "type": "function"
     },
     {
       "constant": false,
@@ -188,8 +210,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xbe523937"
+      "type": "function"
     },
     {
       "constant": false,
@@ -203,8 +224,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xc290d691"
+      "type": "function"
     },
     {
       "constant": false,
@@ -222,8 +242,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xdbaa159d"
+      "type": "function"
     },
     {
       "constant": false,
@@ -245,16 +264,38 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xf309146f"
+      "type": "function"
     }
   ],
-  "filename": "/home/richard/status/status-teller-network/.embark/contracts/teller-network/IEscrow.sol",
-  "originalFilename": "contracts/teller-network/IEscrow.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/teller-network/IEscrow.sol",
+  "className": "IEscrow",
+  "args": [],
   "gas": "auto",
-  "type": "file",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
   "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "realRuntimeBytecode": "",
+  "realArgs": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {
+    "cancel(uint256)": "40e58ee5",
+    "cancel_relayed(address,uint256)": "be523937",
+    "createEscrow_relayed(address,uint256,uint256,uint256,address,string,string,string)": "1795c052",
+    "getBasicTradeData(uint256)": "4a58ddce",
+    "openCase(uint256,uint8)": "267b4cc3",
+    "openCase_relayed(address,uint256,uint8)": "f309146f",
+    "pay(uint256)": "c290d691",
+    "pay_relayed(address,uint256)": "dbaa159d",
+    "rateTransaction(uint256,uint256)": "79347b06",
+    "rateTransaction_relayed(address,uint256,uint256)": "477a7941"
+  },
+  "filename": "C:/dev/status-teller-network/.embark/contracts/teller-network/IEscrow.sol",
+  "originalFilename": "contracts\\teller-network\\IEscrow.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\teller-network\\IEscrow.sol",
+  "type": "file",
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

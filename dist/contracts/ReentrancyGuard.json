@@ -1,23 +1,47 @@
 {
-  "className": "ReentrancyGuard",
-  "args": [],
-  "code": "60806040526000805460ff19169055348015601957600080fd5b506085806100286000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063cf30901214602d575b600080fd5b60336047565b604080519115158252519081900360200190f35b60005460ff168156fea265627a7a72305820a1d6917463d22630f49a6cfb926a4ae935934ce0de48a564304ee18721f39f6164736f6c634300050a0032",
-  "runtimeBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063cf30901214602d575b600080fd5b60336047565b604080519115158252519081900360200190f35b60005460ff168156fea265627a7a72305820a1d6917463d22630f49a6cfb926a4ae935934ce0de48a564304ee18721f39f6164736f6c634300050a0032",
-  "realRuntimeBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063cf30901214602d575b600080fd5b60336047565b604080519115158252519081900360200190f35b60005460ff168156fea265627a7a72305820a1d6917463d22630f4",
-  "linkReferences": {},
-  "swarmHash": "9a6cfb926a4ae935934ce0de48a564304ee18721f39f6164736f6c634300050a",
-  "gasEstimates": {
-    "creation": {
-      "codeDepositCost": "26600",
-      "executionCost": "20299",
-      "totalCost": "46899"
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
     },
-    "external": {
-      "locked()": "388"
-    }
-  },
-  "functionHashes": {
-    "locked()": "cf309012"
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
   },
   "abiDefinition": [
     {
@@ -32,16 +56,38 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0xcf309012"
+      "type": "function"
     }
   ],
-  "filename": "/home/richard/status/status-teller-network/.embark/contracts/common/ReentrancyGuard.sol",
-  "originalFilename": "contracts/common/ReentrancyGuard.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/common/ReentrancyGuard.sol",
+  "className": "ReentrancyGuard",
+  "args": [],
   "gas": "auto",
-  "type": "file",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
   "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "realRuntimeBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063cf30901214602d575b600080fd5b60336047565b604080519115158252519081900360200190f35b60005460ff168156fea265627a7a7230582052b1482d14773a6249",
+  "realArgs": [],
+  "code": "60806040526000805460ff19169055348015601957600080fd5b506085806100286000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063cf30901214602d575b600080fd5b60336047565b604080519115158252519081900360200190f35b60005460ff168156fea265627a7a7230582052b1482d14773a6249b0e7cbfc4e8e99d9b445bc65430e9ec6ec64e0758930da64736f6c634300050a0032",
+  "runtimeBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063cf30901214602d575b600080fd5b60336047565b604080519115158252519081900360200190f35b60005460ff168156fea265627a7a7230582052b1482d14773a6249b0e7cbfc4e8e99d9b445bc65430e9ec6ec64e0758930da64736f6c634300050a0032",
+  "linkReferences": {},
+  "swarmHash": "b0e7cbfc4e8e99d9b445bc65430e9ec6ec64e0758930da64736f6c634300050a",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "26600",
+      "executionCost": "20299",
+      "totalCost": "46899"
+    },
+    "external": {
+      "locked()": "388"
+    }
+  },
+  "functionHashes": {
+    "locked()": "cf309012"
+  },
+  "filename": "C:/dev/status-teller-network/.embark/contracts/common/ReentrancyGuard.sol",
+  "originalFilename": "contracts\\common\\ReentrancyGuard.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\common\\ReentrancyGuard.sol",
+  "type": "file",
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }

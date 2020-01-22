@@ -1,14 +1,47 @@
 {
-  "className": "ApproveAndCallFallBack",
-  "args": [],
-  "code": "",
-  "runtimeBytecode": "",
-  "realRuntimeBytecode": "",
-  "linkReferences": {},
-  "swarmHash": "",
-  "gasEstimates": null,
-  "functionHashes": {
-    "receiveApproval(address,uint256,address,bytes)": "8f4ffcb1"
+  "logger": {
+    "events": {
+      "domain": null,
+      "_events": {
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 123,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
   },
   "abiDefinition": [
     {
@@ -35,16 +68,29 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x8f4ffcb1"
+      "type": "function"
     }
   ],
-  "filename": "/home/richard/status/status-teller-network/.embark/contracts/token/ApproveAndCallFallBack.sol",
-  "originalFilename": "contracts/token/ApproveAndCallFallBack.sol",
-  "path": "/home/richard/status/status-teller-network/contracts/token/ApproveAndCallFallBack.sol",
+  "className": "ApproveAndCallFallBack",
+  "args": [],
   "gas": "auto",
-  "type": "file",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
   "deploy": false,
-  "_gasLimit": 6000000,
-  "error": false
+  "realRuntimeBytecode": "",
+  "realArgs": [],
+  "code": "",
+  "runtimeBytecode": "",
+  "linkReferences": {},
+  "swarmHash": "",
+  "gasEstimates": null,
+  "functionHashes": {
+    "receiveApproval(address,uint256,address,bytes)": "8f4ffcb1"
+  },
+  "filename": "C:/dev/status-teller-network/.embark/contracts/token/ApproveAndCallFallBack.sol",
+  "originalFilename": "contracts\\token\\ApproveAndCallFallBack.sol",
+  "path": "C:\\dev\\status-teller-network\\contracts\\token\\ApproveAndCallFallBack.sol",
+  "type": "file",
+  "deploymentAccount": "0xDE2c8221b82e3D285EBAf31325be7D43E6724Def"
 }
