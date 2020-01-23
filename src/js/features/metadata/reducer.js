@@ -59,6 +59,7 @@ function reducer(state = DEFAULT_STATE, action) {
     case ENABLE_ETHEREUM_FAILED:
       return {
         ...state,
+        ethereumError: action.error,
         eip1102Enabled: false,
         defaultProvider: false
       };

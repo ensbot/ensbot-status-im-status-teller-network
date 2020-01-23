@@ -6,7 +6,6 @@ import {connect} from "react-redux";
 import {withRouter} from "react-router-dom";
 import {withTranslation} from "react-i18next";
 
-
 class Settings extends Component {
   clearCache = () => {
     this.props.clearCache();

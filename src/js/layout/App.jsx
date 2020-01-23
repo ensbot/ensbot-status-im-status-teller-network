@@ -133,6 +133,7 @@ class App extends Component {
       nextProps.isEip1102Enabled !== this.props.isEip1102Enabled ||
       !_.isEqual(nextProps.profile, this.props.profile) ||
       nextProps.error !== this.props.error ||
+      nextProps.ethereumError !== this.props.ethereumError ||
       nextProps.hasToken !== this.props.hasToken ||
       nextState.hidePriceError !== this.state.hidePriceError ||
       nextState.isHome !== this.state.isHome;
@@ -148,6 +149,9 @@ class App extends Component {
     if (this.props.error) {
       console.error(this.props.error);
       return <ErrorInformation provider/>;
+    }
+    if (this.props.ethereumError) {
+      return <h1>ERROR: {this.props.ethereumError}</h1>;
     }
     if (this.state.globalError) {
       return <ErrorInformation message="Something went wrong" retry={() => window.location.reload()} CTAText="Reload" cancelText="Clear cache data" cancel={() => {
@@ -249,6 +253,7 @@ App.propTypes = {
   setCurrentUser: PropTypes.func,
   resetState: PropTypes.func,
   currentUser: PropTypes.string,
+  ethereumError: PropTypes.string,
   watchEscrowCreations: PropTypes.func,
   loadOffers: PropTypes.func,
   isEip1102Enabled: PropTypes.bool,
@@ -269,6 +274,7 @@ const mapStateToProps = (state) => {
     hasToken: Object.keys(network.selectors.getTokens(state)).length > 0,
     error: network.selectors.getError(state),
     profile: metadata.selectors.getProfile(state, address),
+    ethereumError: metadata.selectors.ethereumError(state),
     newEscrow: escrow.selectors.newEscrow(state),
     priceError: prices.selectors.error(state)
   };

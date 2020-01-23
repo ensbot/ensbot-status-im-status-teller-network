@@ -117,6 +117,7 @@ export function *verifyAccountChange() {
 
 export function *enabledEthereum() {
   try {
+    throw new Error('Test');
     let accounts = yield enableEthereum();
     if (!accounts) {
       accounts = yield web3.eth.getAccounts();
@@ -128,6 +129,7 @@ export function *enabledEthereum() {
     }
     yield put({type: ENABLE_ETHEREUM_SUCCEEDED, accounts});
   } catch (error) {
+    console.error(error);
     yield put({type: ENABLE_ETHEREUM_FAILED, error: error.message});
   }
 }
