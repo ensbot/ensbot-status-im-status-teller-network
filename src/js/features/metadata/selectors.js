@@ -43,7 +43,6 @@ export const getProfile = (state, address) => {
 };
 
 export const nextOfferPrice = (state) => state.metadata.offerPrice;
-export const ethereumError = (state) => state.metadata.ethereumError;
 
 export const getAddOfferStatus = (state) => state.metadata.addOfferStatus;
 
