@@ -12,6 +12,7 @@ const ConnectWallet = ({t, enableEthereum}) => (
     <div className="text-center">
       <RoundedIcon image={WalletIcon} className="mb-3" bgColor="blue" />
       <h2 className="mb-3">{t('connectWallet.title')}</h2>
+      <p>Test version!</p>
       <Button color="primary" onClick={enableEthereum}>
         {t('connectWallet.connect')}
       </Button>
