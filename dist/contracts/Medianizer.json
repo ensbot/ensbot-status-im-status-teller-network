@@ -1,0 +1,125 @@
+{
+  "logger": {
+    "events": {
+      "_events": {
+        "servicesState": [
+          null,
+          null
+        ],
+        "blockchain:started": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "outputDone": [
+          null,
+          null,
+          null
+        ],
+        "contracts:compiled:solc": [
+          null,
+          null
+        ],
+        "file-event": [
+          null,
+          null
+        ],
+        "deployment:contract:deployed": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 129,
+      "_maxListeners": 350
+    },
+    "logLevels": [
+      "error",
+      "warn",
+      "info",
+      "debug",
+      "trace"
+    ],
+    "logLevel": "info",
+    "context": [
+      "run",
+      "build"
+    ]
+  },
+  "abiDefinition": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "peek",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "read",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "deployedAddress": "0x77Dc9125A8610a0A59c9892cda779C7fE339673E",
+  "className": "Medianizer",
+  "args": [],
+  "gas": "auto",
+  "gasPrice": "5000000000",
+  "silent": false,
+  "track": true,
+  "deploy": true,
+  "realRuntimeBytecode": "6080604052348015600f57600080fd5b506004361060325760003560e01c806357de26a414603757806359e02dd714604f575b600080fd5b603d606e565b60408051918252519081900360200190f35b6055607b565b6040805192835290151560208301528051918290030190f35b6808c233113a8becc00090565b6808c233113a8becc0006001909156fea265627a7a723158207927579d896ceff9dc",
+  "realArgs": [],
+  "code": "608060405234801561001057600080fd5b5060c08061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806357de26a414603757806359e02dd714604f575b600080fd5b603d606e565b60408051918252519081900360200190f35b6055607b565b6040805192835290151560208301528051918290030190f35b6808c233113a8becc00090565b6808c233113a8becc0006001909156fea265627a7a723158207927579d896ceff9dc9ae00aac75f9fef90a47ec3433557394afe40d136922d364736f6c63430005100032",
+  "runtimeBytecode": "6080604052348015600f57600080fd5b506004361060325760003560e01c806357de26a414603757806359e02dd714604f575b600080fd5b603d606e565b60408051918252519081900360200190f35b6055607b565b6040805192835290151560208301528051918290030190f35b6808c233113a8becc00090565b6808c233113a8becc0006001909156fea265627a7a723158207927579d896ceff9dc9ae00aac75f9fef90a47ec3433557394afe40d136922d364736f6c63430005100032",
+  "linkReferences": {},
+  "swarmHash": "9ae00aac75f9fef90a47ec3433557394afe40d136922d364736f6c6343000510",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "38400",
+      "executionCost": "87",
+      "totalCost": "38487"
+    },
+    "external": {
+      "peek()": "228",
+      "read()": "176"
+    }
+  },
+  "functionHashes": {
+    "peek()": "59e02dd7",
+    "read()": "57de26a4"
+  },
+  "filename": "/home/richard/status/status-teller-network/.embark/contracts/common/Medianizer.sol",
+  "originalFilename": "contracts/common/Medianizer.sol",
+  "path": "/home/richard/status/status-teller-network/contracts/common/Medianizer.sol",
+  "type": "file",
+  "deploymentAccount": "0x7B73046E14CC085885455Ad0Ab7684AbeF7BFE0D"
+}
